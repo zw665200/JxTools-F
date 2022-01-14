@@ -1,0 +1,188 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">语音转文字专业版</string>
+
+    <!--recovery-->
+    <string name="recovery_main_title">数据恢复</string>
+
+    <!--bill-->
+    <string name="bill_title">我的订单</string>
+
+    <!--mine-->
+    <string name="mine_vip">我的VIP</string>
+    <string name="mine_website">官网网站</string>
+    <string name="mine_help">联系客服</string>
+    <string name="mine_feedback">投诉与退款</string>
+    <string name="mine_service">服务协议</string>
+    <string name="mine_privacy">隐私政策</string>
+    <string name="mine_setting">其它服务</string>
+    <string name="mine_vip_1">无限使用</string>
+    <string name="mine_vip_2">多种语言识别</string>
+    <string name="mine_vip_3">专属客服</string>
+    <string name="mine_vip_4">快速翻译</string>
+    <string name="mine_vip_5">文件识别</string>
+    <string name="mine_vip_6">后台智能识别</string>
+    <string name="mine_vip_7">超高精准度</string>
+    <string name="mine_vip_8">格式转换</string>
+    <string name="mine_level_before">登录后解锁基础功能，福利多多</string>
+    <string name="mine_level_after">普通用户</string>
+    <string name="mine_login">立即登录</string>
+
+    <!--title-->
+    <string name="search_status_doing">扫描中</string>
+    <string name="search_status_pause">扫描暂停</string>
+    <string name="search_status_finish">扫描结束</string>
+
+    <!--setting-->
+    <string name="setting_about_us">关于我们</string>
+    <string name="setting_about_us_des">关于我们，了解更多</string>
+    <string name="setting_clear_cache">清除缓存</string>
+    <string name="setting_account_delete">账号注销</string>
+    <string name="setting_clear_cache_des">账号永久注销</string>
+
+    <!--agreement-->
+    <string name="agreement_service">服务协议</string>
+    <string name="agreement_privacy">隐私政策</string>
+
+    <!--feedback-->
+    <string name="feedback">投诉与退款</string>
+    <string name="feedback_hint">请您输入您需要反馈的内容，如产品性能问题，请详细描述无法恢复的内容及有效的投诉理由，我们将会以您提交的内容描述进行审核。</string>
+    <string name="feedback_pay_account">请输入您用于支付的支付宝账号</string>
+    <string name="feedback_contact">请输入您的手机号(11位有效手机号)</string>
+    <string name="feedback_submit">提交</string>
+    <string name="feedback_img_content">上传图片（不超过3张 ,每张不大于1MB）</string>
+
+    <!--export dialog-->
+    <string name="export_title">正在导出文件</string>
+    <string name="export_save_success">已保存</string>
+
+    <!--export dialog-->
+    <string name="dialog_pay_title">正在查询支付结果</string>
+    <string name="dialog_pay_tip">点击“已完成支付”查看支付结果</string>
+
+    <!--delete dialog-->
+    <string name="delete_title">正在删除微信数据</string>
+
+    <!--customer service dialog-->
+    <string name="customer_service_title">服务协议和隐私政策</string>
+    <string name="customer_service_refuse">暂不使用</string>
+    <string name="customer_service_agree">同意</string>
+    <string name="customer_service_agreement">欢迎您使用本软件，您可阅读《服务协议》和《隐私政策》了解详细信息。我们会收集一些设备信息用来标识您享有该设备的付费服务权益。如您同意，点击同意后开始授权和接受我们的服务。</string>
+
+    <!--customer auth service dialog-->
+    <string name="auth_service_title">授权申请</string>
+    <string name="auth_service_refuse">取消</string>
+    <string name="auth_service_agree">开始授权</string>
+    <string name="auth_service_content">我们的产品会向您申请以下权限，并告知您申请权限的目的：</string>
+    <string name="auth_service_content_1">1.读取设备权限：获取设备的IMEI，手机型号和系统版本生成设备的唯一标识符来生成一个游客ID，用于和服务端的数据交互并减少设备的网络请求;</string>
+    <string name="auth_service_content_2">2.存储空间读写权限：软件的导入语音功能需要读取设备上的语音文件，生成的语音文件和文本保存到到手机的存储空间。</string>
+    <string name="auth_service_content_3">3.录音权限：软件的语音转文字功能需要录入您的声音然后经过智能识别转换成文字。</string>
+    <string name="auth_service_content_4">4.修改声音设置权限：播放录音可以调节听筒的播放和调节声音的大小。</string>
+
+    <!--quit dialog-->
+    <string name="quite_title">确定要退出支付吗？</string>
+    <string name="quite_ok">确定</string>
+    <string name="quite_cancel">取消</string>
+
+    <!--pay-->
+    <string name="pay_wx_chat">不限制恢复账号 | 本手机授权一年 | 无限次找回</string>
+    <string name="pay_wx_contact">不限制恢复账号 | 本手机授权一年 | 无限次找回</string>
+    <string name="pay_wx_doc">本手机授权一年 | 无限次找回</string>
+    <string name="pay_wx_video">本手机授权一年 | 无限次找回</string>
+    <string name="pay_wx_voice">本手机授权一年 | 无限次找回</string>
+    <string name="pay_wx_pic">本手机授权一年 | 无限次找回</string>
+    <string name="pay_delete">本手机授权一年 | 无限次删除</string>
+    <string name="pay_unit">元</string>
+    <string name="pay_title">开通会员</string>
+
+    <!--file-->
+    <string name="file_to_text_title">语音文件</string>
+    <string name="voice_list_title">语音</string>
+    <string name="video_list_title">视频</string>
+
+    <!--service-->
+    <string name="vip_service_des">VIP专属客服，点击发起会话</string>
+    <string name="visitor_service_des">全部会员可用，三个工作日内审核，审核结果短信通知</string>
+    <string name="common_questions_des">软件使用以及恢复等常见问题(非客服在线时间可以参考)</string>
+    <string name="charge">立即充值</string>
+
+    <!--public resource-->
+    <string name="progress_des">长按查看详情并操作</string>
+    <string name="progress_des_1">正在计算文件的大小…</string>
+    <string name="progress_des_2">多选恢复和删除</string>
+    <string name="progress_status_searching">全盘扫描中...</string>
+
+    <!--accessibility-->
+    <string name="access_description">一键备份</string>
+
+    <!--wechat error-->
+    <string name="errcode_success">发送成功</string>
+    <string name="errcode_cancel">发送取消</string>
+    <string name="errcode_deny">发送被拒绝</string>
+    <string name="errcode_unsupported">不支持错误</string>
+    <string name="errcode_unknown">发送返回</string>
+
+    <!--not find dialog-->
+    <string name="not_find_title">提示</string>
+    <string name="not_find_content">账户注销之后，您的所有信息都将会抹除，包括您付费记录和您享有的会员权限都将删除，您是否确定要继续操作？</string>
+
+    <!--questions-->
+    <string name="questions_title">帮助中心</string>
+
+    <!--photo_title-->
+    <string name="title_fix">照片修复</string>
+    <string name="title_colour">黑白照片上色</string>
+    <string name="title_watermark">去遮挡物</string>
+    <string name="title_definition">清晰度增强</string>
+    <string name="title_resize">图片无损放大</string>
+    <string name="title_contrast">图片对比度增强</string>
+    <string name="title_cartoon">人像动漫化</string>
+    <string name="title_trans_style">人物风格转换</string>
+    <string name="title_defogging">图像去雾</string>
+    <string name="title_stretch_fix">拉伸图像恢复</string>
+    <string name="title_matting">一键抠图</string>
+    <string name="title_crop">图片裁剪</string>
+    <string name="title_crop_">图片裁剪(调整遮挡物的区域)</string>
+    <string name="title_trans_format">格式转换</string>
+    <string name="title_compress">图片压缩</string>
+    <string name="title_size_modify">修改尺寸</string>
+    <string name="title_age_trans">人像年龄转换</string>
+    <string name="title_gender_trans">人像性别转换</string>
+    <string name="title_face_merge">图片转文字</string>
+    <string name="title_morph">文档转文字</string>
+
+
+    <!--fix-->
+    <string name="fix_access">处理中...</string>
+    <string name="fix_begin">开始修复</string>
+    <string name="progress_begin">开始处理</string>
+    <string name="fix_save_to_album">图片已保存到相册</string>
+    <string name="fix_tips">图片的大小和网络环境会影响图片的处理速度，请耐心等待。处理成功的图片会保存到相册里，如果相册未找到，请前往文件管理/Pictures目录下查找照片</string>
+    <string name="fix_tips_zip">设置的压缩比例越小，图片质量越低，文件大小越小。</string>
+    <string name="fix_tips_format_trans">图片小于5MB</string>
+    <string name="fix_tips_zip_vivo">如果提示成功后，相册未找到，请打开手机的文件管理，照片保存在DCIM文件夹下</string>
+
+    <!--des-->
+    <string name="desc_1">图片文件类型支持PNG/JPG/JPEG/BMP格式，图片大小不超过3MB，图片长宽乘积不超过2000px*2000px</string>
+    <string name="desc_2">操作步骤：点击导入从相册里选择图片，然后点击去转换。</string>
+    <string name="desc_3">目前只支持PDF文件识别</string>
+    <string name="desc_4">操作步骤：点击导入从文件库里选择pdf文件，然后点击去转换。</string>
+
+    <!--other-->
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <!--enjoy-->
+    <string name="enjoy_six">享受六大特权</string>
+    <string name="enjoy_ten">享受十大特权</string>
+
+    <!-- splash -->
+    <string name="splash_from">© 2021 ql-recovery.com</string>
+
+    <string name="desc_open_camera">导入</string>
+    <string name="desc_open_album">去转换</string>
+    <string name="pic_to_text_02">你好啊夏天 喝一杯压压惊</string>
+    <string name="pic_to_text_01">梦想起航 前往下一个目的地 开始新的旅程</string>
+    <string name="doc_to_text_01">三、合并财务报表项目注意 10、其他应付款 10.1应付利息 人民币元 项目 年末余额 年初余额 分期付息到期还本的长期借款利息 432,234,646...</string>
+    <string name="doc_to_text_02">欢迎信 各位尊敬的与会者,您好! 以下是会议日程: 时间/Time 课时 日期/Date 主题/SessionTopic ( From-to-) / Mins 2019/08/23</string>
+
+</resources>

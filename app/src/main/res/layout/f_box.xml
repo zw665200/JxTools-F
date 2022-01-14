@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_light_white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_height="@dimen/dp_56"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="@dimen/dp_16"
+            android:text="工具"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/sp_20"
+            android:textStyle="bold" />
+
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/sp_16"
+        android:layout_marginTop="@dimen/dp_30"
+        android:text="语言转文字类"
+        android:textColor="@color/color_content"
+        android:textSize="@dimen/sp_18" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_tools_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/sp_16"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/sp_16"
+        android:nestedScrollingEnabled="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/sp_16"
+        android:layout_marginTop="@dimen/dp_30"
+        android:text="文字转语音类"
+        android:textColor="@color/color_content"
+        android:textSize="@dimen/sp_18" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_tools_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/sp_16"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/sp_16"
+        android:nestedScrollingEnabled="false" />
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_light_white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_56"
+        android:layout_marginTop="@dimen/dp_30"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center"
+            android:layout_marginStart="@dimen/dp_16"
+            android:text="文件中心"
+            android:textColor="@color/color_black"
+            android:textSize="@dimen/sp_20"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_35"
+        android:layout_marginStart="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_2"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:layout_marginBottom="@dimen/dp_5"
+        android:background="@drawable/shape_corner_white"
+        android:gravity="center"
+        android:hint="输入关键字查找文件"
+        android:singleLine="true"
+        android:textSize="@dimen/sp_13" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_140"
+        android:layout_marginStart="@dimen/dp_12"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/dp_12"
+        android:background="@drawable/file_background"
+        android:orientation="horizontal">
+
+        <com.recording.trans.view.views.WaveView
+            android:id="@+id/waveView"
+            android:layout_width="@dimen/dp_110"
+            android:layout_height="@dimen/dp_110"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/dp_35"
+            app:bindingText="bottom_text"
+            app:max="100" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dp_20"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="内存使用情况"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/sp_18" />
+
+            <TextView
+                android:id="@+id/model"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_5"
+                android:text="66G/128G"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/sp_15" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginStart="@dimen/sp_20"
+        android:layout_marginEnd="@dimen/sp_20"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/import_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:drawableStart="@drawable/ic_inport_file"
+            android:drawablePadding="@dimen/dp_5"
+            android:text="导入文件"
+            android:textColor="@color/color_content"
+            android:textSize="@dimen/sp_14" />
+
+        <TextView
+            android:id="@+id/create_folder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableStart="@drawable/ic_create_new_folder"
+            android:drawablePadding="@dimen/dp_5"
+            android:gravity="center"
+            android:text="新建文件夹"
+            android:visibility="invisible"
+            android:textColor="@color/color_content"
+            android:textSize="@dimen/sp_14" />
+
+        <TextView
+            android:id="@+id/sort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:drawableStart="@drawable/ic_sort"
+            android:drawablePadding="@dimen/dp_5"
+            android:gravity="center"
+            android:text="文件排序"
+            android:textColor="@color/color_content"
+            android:textSize="@dimen/sp_14" />
+
+    </FrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_file_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/sp_16"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginEnd="@dimen/sp_16"
+        android:layout_marginBottom="@dimen/dp_30"
+        android:overScrollMode="never"
+        android:nestedScrollingEnabled="false" />
+
+</LinearLayout>

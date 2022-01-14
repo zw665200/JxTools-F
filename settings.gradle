@@ -1,0 +1,2 @@
+include ':app', ':kefu-easeui', ':player', ":ffmpeg",":Live"
+rootProject.name = "JxTools-F"

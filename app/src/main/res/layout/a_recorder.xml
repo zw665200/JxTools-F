@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_light_white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_56"
+        android:background="@color/color_white">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/dp_5"
+            android:padding="@dimen/dp_5"
+            android:src="@drawable/arr_l" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="录音机"
+            android:textColor="@color/color_content"
+            android:textSize="@dimen/sp_15" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_70"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:layout_marginBottom="@dimen/dp_220"
+        android:background="@drawable/shape_corner_white">
+
+        <LinearLayout
+            android:id="@+id/record_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="点击下面"
+                    android:textColor="@color/color_dark_grey"
+                    android:textSize="@dimen/sp_13" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dp_3"
+                    android:layout_marginEnd="@dimen/dp_3"
+                    android:src="@drawable/ic_recorder_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="按钮开始录音"
+                    android:textColor="@color/color_dark_grey"
+                    android:textSize="@dimen/sp_13" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_5"
+                android:text="用耳机录音，转写效果更佳"
+                android:textColor="@color/color_dark_grey"
+                android:textSize="@dimen/sp_13" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_230"
+        android:layout_gravity="bottom"
+        app:cardCornerRadius="@dimen/dp_10">
+
+        <Chronometer
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_20"
+            android:format="00:00:00"
+            android:gravity="center"
+            android:textSize="@dimen/sp_28" />
+
+        <com.recording.trans.view.views.VoiceWaveView
+            android:id="@+id/waveView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_30"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="20dp"
+            android:descendantFocusability="blocksDescendants"
+            app:baselineColor="@color/transparent"
+            app:maxValue="5"
+            app:space="@dimen/dp_5"
+            app:waveColor="@color/wave_blue"
+            app:waveStokeWidth="@dimen/dp_2" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_90"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/dp_20">
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="@dimen/dp_70"
+                android:layout_height="@dimen/dp_30"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/dp_40"
+                android:background="@drawable/shape_rectangle_purple"
+                android:text="重置"
+                android:textColor="@color/color_btn_purple"
+                android:textSize="@dimen/sp_12"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_recorder_default" />
+
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="@dimen/dp_70"
+                android:layout_height="@dimen/dp_30"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="@dimen/dp_40"
+                android:background="@drawable/shape_corner_purple"
+                android:text="保存"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/sp_12"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</FrameLayout>

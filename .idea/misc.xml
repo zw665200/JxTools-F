@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/background_gradient.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/background_gradient_btn.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/progressbar_bg.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/seekbar_bg.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/seekbar_thumb.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_corner_blue.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_corner_grey.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_corner_orange.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_corner_purple.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_corner_red.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_corner_select.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_corner_unselect.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_corner_white.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_corner_yellow.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_half_corner_white.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_left_corner_blue.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_left_corner_white.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_rectangle_blue.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_rectangle_light_blue.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_rectangle_purple.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_rectangle_white.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_right_corner_blue.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_right_corner_white.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_top_corner_light_white.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/drawable/shape_top_corner_white.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_agreement.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_baidu_pano.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_customer_service.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_doc_to_text.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_feedback.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_file_to_voice.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_home.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_login.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_mine.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_panostreet.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_photo_face_merge.xml" value="0.6067924746672604" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_recorder.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_recovery_pay.xml" value="0.6067924746672604" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_setting.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_short_voice_to_text.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_text_to_voice.xml" value="0.4528302049755674" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_tutorial.xml" value="0.3067708333333333" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_video_trans.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_voice_to_font.xml" value="0.4528302049755674" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_voice_to_text.xml" value="0.4528302049755674" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_voice_trans.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_wechat.xml" value="0.5375347544022243" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/a_wechat_voice_recovery.xml" value="0.4528302049755674" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/activity_splash.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/d_backup_files.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/d_customer_service.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/d_extra_func.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/d_file_to_text.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/d_huawei_pwd.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/d_not_find_file.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/d_pay_discount.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/d_pay_success.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/d_pics.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/d_save_image.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/d_service_auth.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/f_box.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/f_contact.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/f_file.xml" value="0.4528302049755674" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/f_home.xml" value="0.4528302049755674" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/f_inland.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/f_mine.xml" value="0.4528302049755674" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/f_vr.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_banner.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_customer.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_doc.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_file_to_text.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_format_type.xml" value="0.5333333333333333" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_func.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_function.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_heart.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_heart_small.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_home_pic.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_mine_heart_small.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_order.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_other.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_pic.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_province.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_text_to_voice.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_video.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_voice.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/item_wechat.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/l_home_bottom.xml" value="0.4528302049755674" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/layout_bottom.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/layout_progressbar.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/layout_second_bottom.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/layout_title.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/p_anchor_change_setting.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/p_audio_sort.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/p_video_format_trans.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/p_voice_format_trans.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/p_voice_setting.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/app/src/main/res/layout/voice_detail.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/ffmpeg/src/main/res/layout/activity_main.xml" value="0.5333333333333333" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/kefu-easeui/src/main/res/drawable/hd_chat_takepic_selector.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/kefu-easeui/src/main/res/drawable/hd_chatfrom_bg.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/kefu-easeui/src/main/res/drawable/hd_shape_corner_white.xml" value="0.4828125" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/kefu-easeui/src/main/res/layout/hd_chat_menu_item.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/kefu-easeui/src/main/res/layout/hd_chat_message_list.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/kefu-easeui/src/main/res/layout/hd_fragment_chat.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/kefu-easeui/src/main/res/layout/hd_row_received_message.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/kefu-easeui/src/main/res/layout/hd_row_sent_message.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/kefu-easeui/src/main/res/layout/hd_widget_chat_input_menu.xml" value="0.4625" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/kefu-easeui/src/main/res/layout/hd_widget_chat_primary_menu.xml" value="0.4528302049755674" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/JxTools-F/kefu-easeui/src/main/res/layout/hd_widget_title_bar.xml" value="0.4625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

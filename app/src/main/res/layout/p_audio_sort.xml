@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_corner_white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <TextView
+        android:id="@+id/default_sort"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="默认排序"
+        android:textColor="@color/color_content"
+        android:textSize="@dimen/sp_14" />
+
+    <TextView
+        android:id="@+id/size_desc"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="由大到小"
+        android:textColor="@color/color_content"
+        android:textSize="@dimen/sp_14" />
+
+    <TextView
+        android:id="@+id/size_asc"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="由小到大"
+        android:textColor="@color/color_content"
+        android:textSize="@dimen/sp_14" />
+
+    <TextView
+        android:id="@+id/date_desc"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="由远到近"
+        android:textColor="@color/color_content"
+        android:textSize="@dimen/sp_14" />
+
+    <TextView
+        android:id="@+id/date_asc"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_45"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="由近到远"
+        android:textColor="@color/color_content"
+        android:textSize="@dimen/sp_14" />
+
+
+</LinearLayout>

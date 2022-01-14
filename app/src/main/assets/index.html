@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Synchronous Loading</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <style type="text/css">
+    /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+    #map {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Optional: Makes the sample page fill the window. */
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="map" onclick="set(42.345573, -71.098326);"></div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&v=weekly"></script>
+  <script>
+    var t
+    function set(l, r) {
+      "use strict";
+      t = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: l, lng: r },
+        zoom: 6,
+        backgroundColor:"#fff",
+        streetViewControl: true,
+        mapTypeId: "hybrid",
+        fullscreenControl: false,
+        mapTypeControl: false,
+        panControl: false,
+        streetViewControl: false,
+        disableDefaultUI:true,
+        keyboardShortcuts:false,
+      });
+
+      google.maps.event.addListener(t, "dragend", () => {
+            native.centerChanged(JSON.stringify(t.getCenter()));
+          });
+
+      var e = {
+        d: (o, t) => {
+          for (var r in t)
+            e.o(t, r) &&
+              !e.o(o, r) &&
+              Object.defineProperty(o, r, { enumerable: !0, get: t[r] });
+        },
+        o: (e, o) => Object.prototype.hasOwnProperty.call(e, o),
+        r: (e) => {
+          "undefined" != typeof Symbol &&
+            Symbol.toStringTag &&
+            Object.defineProperty(e, Symbol.toStringTag, {
+              value: "Module",
+            }),
+            Object.defineProperty(e, "__esModule", { value: !0 });
+        },
+      },
+        o = {};
+      e.r(o), e.d(o, { map: () => t });
+    
+
+      var imageRed = {
+        url: "SDK_Default_Icon_Passenger.png",
+        scaledSize: new google.maps.Size(20, 30),
+        size: new google.maps.Size(20, 30)
+      };
+
+      new google.maps.Marker({
+        position: { lat: l, lng: r },
+        map: t,
+        icon: imageRed
+      });
+
+      var r = window;
+      for (var n in o) r[n] = o[n];
+      o.__esModule && Object.defineProperty(r, "__esModule", { value: !0 });
+    };
+
+    function getCenter(){
+      var latlng = t.getCenter();
+  
+      if(latlng != null){
+        return JSON.stringify(latlng)
+      }
+    }
+    
+  </script>
+</body>
+
+</html>
